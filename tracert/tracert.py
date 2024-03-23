@@ -16,7 +16,7 @@ def ip_to_as(ip):
     res = requests.request('GET', f'http://ip-api.com/json/{ip}?fields=27137')
     data = res.json()
     if data['status'] == 'success':
-        return [data['query'], data['as'].split()[0], data['country'], data['isp']]
+        return [data['query'], data['as'], data['country'], data['isp']]
     else:
         return [ip, 'local', 'local', 'local']
 
