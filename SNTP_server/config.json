@@ -1,0 +1,8 @@
+{
+  "server_ip": "127.0.0.1",
+  "server_port": 123,
+  "offset": 12345,
+  "stratum": 1,
+  "leap_indicator": 0,
+  "version_number": 4
+}
