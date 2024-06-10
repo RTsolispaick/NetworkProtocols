@@ -26,7 +26,6 @@ VK API Client - это консольная утилита на Python, кото
 # Использование
 
 ```shell
-сd ./VK_api_client
 py main.py [-h] [-f] [-a] [-u] [-c COUNT] user_id
 ```
 
